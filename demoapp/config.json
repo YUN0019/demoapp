@@ -1,0 +1,368 @@
+{
+  "headless": true,
+  "max_workers": 8,
+  "search_interval_seconds": 300,
+  "search_engines": [
+    {
+      "name": "Swisscows",
+      "url": "https://swisscows.com/web?query={}"
+    },
+    {
+      "name": "DuckDuckGo",
+      "url": "https://duckduckgo.com/html/?q={}"
+    },
+    {
+      "name": "SearXNG",
+      "url": "https://searx.be/search?q={}"
+    },
+    {
+      "name": "Google",
+      "url": "https://www.google.com/search?q={}"
+    },
+    {
+      "name": "Bing",
+      "url": "https://www.bing.com/search?q={}"
+    },
+    {
+      "name": "Startpage",
+      "url": "https://www.startpage.com/do/search?q={}"
+    }
+  ],
+  "proxy_pool": [
+    "http://89.116.51.164:8080"
+  ],
+  "scan_interval_minutes": 3,
+  "locations": [
+    {
+      "name": "Alaska (Anchorage)",
+      "latitude": 61.2181,
+      "longitude": -149.9003,
+      "timezone": "America/Anchorage",
+      "locale": "en-US"
+    },
+    {
+      "name": "Arizona (Phoenix)",
+      "latitude": 33.4484,
+      "longitude": -112.074,
+      "timezone": "America/Phoenix",
+      "locale": "en-US"
+    },
+    {
+      "name": "California (Los Angeles)",
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "timezone": "America/Los_Angeles",
+      "locale": "en-US"
+    },
+    {
+      "name": "Colorado (Denver)",
+      "latitude": 39.7392,
+      "longitude": -104.9903,
+      "timezone": "America/Denver",
+      "locale": "en-US"
+    },
+    {
+      "name": "Montana (Billings)",
+      "latitude": 45.7833,
+      "longitude": -108.5007,
+      "timezone": "America/Denver",
+      "locale": "en-US"
+    },
+    {
+      "name": "Nevada (Las Vegas)",
+      "latitude": 36.1699,
+      "longitude": -115.1398,
+      "timezone": "America/Los_Angeles",
+      "locale": "en-US"
+    },
+    {
+      "name": "New Mexico (Albuquerque)",
+      "latitude": 35.0844,
+      "longitude": -106.6504,
+      "timezone": "America/Denver",
+      "locale": "en-US"
+    },
+    {
+      "name": "Oregon (Portland)",
+      "latitude": 45.5152,
+      "longitude": -122.6784,
+      "timezone": "America/Los_Angeles",
+      "locale": "en-US"
+    },
+    {
+      "name": "Washington (Seattle)",
+      "latitude": 47.6062,
+      "longitude": -122.3321,
+      "timezone": "America/Los_Angeles",
+      "locale": "en-US"
+    },
+    {
+      "name": "Illinois (Chicago)",
+      "latitude": 41.8781,
+      "longitude": -87.6298,
+      "timezone": "America/Chicago",
+      "locale": "en-US"
+    },
+    {
+      "name": "Michigan (Detroit)",
+      "latitude": 42.3314,
+      "longitude": -83.0458,
+      "timezone": "America/Detroit",
+      "locale": "en-US"
+    },
+    {
+      "name": "Minnesota (Minneapolis)",
+      "latitude": 44.9778,
+      "longitude": -93.265,
+      "timezone": "America/Chicago",
+      "locale": "en-US"
+    },
+    {
+      "name": "Missouri (St. Louis)",
+      "latitude": 38.627,
+      "longitude": -90.1994,
+      "timezone": "America/Chicago",
+      "locale": "en-US"
+    },
+    {
+      "name": "Ohio (Columbus)",
+      "latitude": 39.9612,
+      "longitude": -82.9988,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "Connecticut (Hartford)",
+      "latitude": 41.7658,
+      "longitude": -72.6734,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "Delaware (Wilmington)",
+      "latitude": 39.7391,
+      "longitude": -75.5398,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "Maine (Portland)",
+      "latitude": 43.6591,
+      "longitude": -70.2568,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "Maryland (Baltimore)",
+      "latitude": 39.2904,
+      "longitude": -76.6122,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "Massachusetts (Boston)",
+      "latitude": 42.3601,
+      "longitude": -71.0589,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "New Jersey (Newark)",
+      "latitude": 40.7357,
+      "longitude": -74.1724,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "New York (NYC)",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "Rhode Island (Providence)",
+      "latitude": 41.824,
+      "longitude": -71.4128,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "Vermont (Burlington)",
+      "latitude": 44.4759,
+      "longitude": -73.2121,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    },
+    {
+      "name": "Virginia (Richmond)",
+      "latitude": 37.5407,
+      "longitude": -77.436,
+      "timezone": "America/New_York",
+      "locale": "en-US"
+    }
+  ],
+  "output_dirs": {
+    "test_jpg": "testjpg",
+    "test_html": "testHTML",
+    "record": "Record"
+  },
+  "keyword_groups": {
+    "A_Product": [
+      "THC-A Flower",
+      "Exotic Carts",
+      "Disposable Vape",
+      "Live Resin",
+      "Rosin",
+      "Indica",
+      "Sativa",
+      "Hybrid",
+      "Psilocybin",
+      "Magic Mushrooms",
+      "Microdose Gummies",
+      "THC",
+      "Cannabis",
+      "Bud",
+      "Zaza",
+      "Cannabis Flower",
+      "Cocaine Powder",
+      "Crack Cocaine",
+      "Nose Candy",
+      "Heroin",
+      "Black Tar Heroin",
+      "China White Fentanyl",
+      "Opium",
+      "Morphine",
+      "Fentanyl",
+      "Dance Fever Fentanyl",
+      "Methamphetamine",
+      "Crystal Meth",
+      "Amphetamine Paste",
+      "MDMA",
+      "Ecstasy Pills",
+      "XTC",
+      "Molly Caps",
+      "LSD",
+      "Acid Tabs",
+      "LSD Blotter",
+      "Ketamine",
+      "Special K",
+      "Vitamin K",
+      "Cat Valium",
+      "Horse Trank",
+      "Meth Crystals",
+      "THC Edibles",
+      "Psychedelic Gummies",
+      "K-hole",
+      "Lean Syrup",
+      "Sizzurp",
+      "Purple Drank",
+      "Oxycodone",
+      "Percocet",
+      "Xanax Bars",
+      "Zannies"
+    ],
+    "C_Payment_Contact": [
+      "Add to cart",
+      "Proceed to checkout",
+      "Age Verification",
+      "21+",
+      "Are you of legal age?",
+      "Discreet shipping",
+      "Smell-proof packaging",
+      "Tracked shipping",
+      "Priority Mail",
+      "In stock",
+      "Out of stock",
+      "Signal me",
+      "Wickr me",
+      "@plug",
+      "Local plug",
+      "Telegram link",
+      "Join our channel",
+      "XMR accepted",
+      "Monero only",
+      "BTC accepted",
+      "Crypto discount",
+      "CashApp",
+      "Venmo",
+      "Zelle",
+      "USDT",
+      "Bitcoin",
+      "XMR",
+      "Menu",
+      "Price list",
+      "Delivery",
+      "Worldwide Shipping",
+      "Discreet Packing"
+    ],
+    "E_Advanced_Dorks": [
+      "THC \"Add to cart\" (XMR OR Bitcoin OR Monero) -ai -news -software",
+      "WooCommerce \"shipping worldwide\" (cannabis OR weed) -blog -article",
+      "\"Buy magic mushrooms\" \"Secure checkout\" (USD OR Crypto) -news -review",
+      "\"Weed dispensary\" \"No medical card required\" \"online shop\"",
+      "inurl:\"/checkout/\" (Bitcoin OR XMR) \"THC-A\" -plugin -tutorial",
+      "\"Discreet shipping\" \"Add to cart\" (Cannabis OR Zaza OR Flower) -news"
+    ],
+    "X_Domain_Blacklist": [
+      "google.",
+      "bing.",
+      "duckduckgo.",
+      "swisscows.",
+      "searx.",
+      "startpage.",
+      "mojeek.",
+      "yandex.",
+      "facebook.com",
+      "linkedin.com",
+      "instagram.com",
+      "twitter.com",
+      "tiktok.com",
+      "github.com",
+      "youtube.com",
+      "wikipedia.org",
+      "amazon.com",
+      "ebay.com",
+      "walmart.com",
+      "microsoft.com",
+      "apple.com",
+      "play.google",
+      "app-store",
+      "coinmarketcap.com",
+      "coindesk.com",
+      "binance.com",
+      "tradingview.com",
+      "taobao.com",
+      "tmall.com",
+      "jd.com",
+      "aliexpress.com",
+      "getgreenline",
+      "dutchie",
+      "springbig",
+      "greenline",
+      "/privacy",
+      "/settings",
+      "/accounts",
+      "/preferences",
+      "/search?",
+      "/login"
+    ],
+    "X_Content_Blacklist": [
+      "national institute on drug abuse",
+      "this content is for informational purposes only",
+      "substance abuse treatment",
+      "drug rehabilitation center",
+      "call 1-800 for help",
+      "crisis helpline",
+      "peer-reviewed study",
+      "published in journal of"
+    ]
+  },
+  "scoring_weights": {
+    "core_keywords": 60,
+    "supporting_keywords": 40,
+    "blacklist_penalty": -500,
+    "min_total_score": 85
+  },
+  "proxy": "http://xqxrqlqu:t37jpm1sb44c@31.59.20.176:6754"
+}
